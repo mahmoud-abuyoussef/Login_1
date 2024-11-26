@@ -10,3 +10,17 @@
   --ocean-blue: #4d47c3;
   --silver: #b5b5b5;
 }
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+header {
+  padding: 31px 42px;
+}
+header a {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--black);
+}
