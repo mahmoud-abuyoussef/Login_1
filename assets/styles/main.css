@@ -9,6 +9,7 @@
   --maximum-blue-purple: #a7a3ff;
   --ocean-blue: #4d47c3;
   --silver: #b5b5b5;
+  --alice-blue: #f0efff;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -43,11 +44,11 @@ header a {
   font-weight: bold;
   color: var(--black);
 }
-section {
-  /* height: calc(100vh - 31px);
+section .container {
   display: flex;
   align-items: center;
-  justify-content: space-between; */
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .info h1 {
   font-size: 50px;
@@ -65,4 +66,34 @@ section {
 .info .if-have-an-accout a {
   font-weight: bold;
   color: var(--ocean-blue);
+}
+.form h2 {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 30px;
+}
+.form form input {
+  display: block;
+  width: 369px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: var(--alice-blue);
+}
+.form form .input-username {
+  margin-bottom: 40px;
+}
+.form form input::placeholder {
+  color: var(--maximum-blue-purple);
+}
+.form form a {
+  display: block;
+  margin: 15px 0 30px 0;
+  text-align: right;
+  color: var(--silver);
+}
+.form form .login-btn {
+  color: var(--white);
+  background-color: var(--ocean-blue);
 }
