@@ -37,7 +37,7 @@ a {
   }
 }
 header {
-  padding: 31px 42px;
+  padding: 31px 0;
 }
 header a {
   font-size: 20px;
@@ -81,10 +81,9 @@ section .container {
 }
 .form form input {
   display: block;
-  max-width: 369px;
-  min-width: 270px;
+  min-width: 280px;
   padding: 20px;
-  margin: 20px;
+  margin: 20px 0;
   border: none;
   outline: none;
   border-radius: 8px;
