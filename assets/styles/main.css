@@ -36,6 +36,11 @@ a {
     width: 1170px;
   }
 }
+@media (min-width: 992px) {
+  .col {
+    width: 35%;
+  }
+}
 header {
   padding: 31px 0;
 }
@@ -57,31 +62,32 @@ section .container {
     justify-content: center;
   }
 }
-.info h1 {
+h1 {
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 5px;
 }
-.info .description {
+.description {
   margin-bottom: 53px;
   font-size: 35px;
   font-weight: 500;
 }
-.info .if-have-an-accout {
+.if-have-an-accout {
   font-size: 16px;
 }
-.info .if-have-an-accout a {
+.if-have-an-accout a {
   font-weight: bold;
   color: var(--ocean-blue);
 }
-.form h2 {
+h2 {
   margin-bottom: 20px;
   font-weight: 500;
   font-size: 30px;
 }
-.form form input {
+form input {
   display: block;
   min-width: 280px;
+  width: 100%;
   padding: 20px;
   margin: 20px 0;
   border: none;
@@ -89,33 +95,33 @@ section .container {
   border-radius: 8px;
   background-color: var(--alice-blue);
 }
-.form form .input-username {
+form .input-username {
   margin-bottom: 40px;
 }
-.form form input::placeholder {
+form input::placeholder {
   color: var(--maximum-blue-purple);
 }
-.form form a {
+form a {
   display: block;
   margin: 15px 0 40px 0;
   text-align: right;
   color: var(--silver);
 }
-.form form .login-btn {
+form .login-btn {
   color: var(--white);
   background-color: var(--ocean-blue);
 }
-.form .continue-with {
+.continue-with {
   margin: 40px 0;
   text-align: center;
   color: var(--silver);
 }
-.form .login-with ul {
+.login-with ul {
   display: flex;
   justify-content: center;
   gap: 20px;
   list-style: none;
 }
-.form .login-with ul li a img {
+.login-with ul li a img {
   width: 41px;
 }
