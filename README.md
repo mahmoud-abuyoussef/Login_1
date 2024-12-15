@@ -24,6 +24,6 @@
 **Design by Figma Community**
 
 ![Sign In Desktop](https://github.com/mahmoud-abuyoussef/Login_1/blob/main/design/signin.webp)
-![Sign In](https://github.com/mahmoud-abuyoussef/Login_1/blob/main/design/signin-mobile.webp)
-![Sign Un Desktop](https://github.com/mahmoud-abuyoussef/Login_1/blob/main/design/register.webp)
+![Sign Up Desktop](https://github.com/mahmoud-abuyoussef/Login_1/blob/main/design/register.webp)
+![Sign In Mobile](https://github.com/mahmoud-abuyoussef/Login_1/blob/main/design/signin-mobile.webp)
 ![Sign Up Mobile](https://github.com/mahmoud-abuyoussef/Login_1/blob/main/design/register-mobile.webp)
